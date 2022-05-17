@@ -5,3 +5,9 @@ function distanceFromHqInBlocks(startingBlock){
     const distance = headquarters - startingBlock;
     return Math.abs(distance)
 }
+
+
+function distanceFromHqInFeet(startingBlock){
+    return distanceFromHqInBlocks(startingBlock) * 264;
+    
+}
